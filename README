@@ -1,0 +1,25 @@
+tiny program to help humans count money, e.g at the end of a shift
+
+Compiling and Installing(for GNU/Linux):
+
+being a single .c file, 
+
+gcc ccount.c -o <executableName>
+
+once the executable is built, copy/move it to
+
+/usr/local/bin
+
+OR add its parent dir to your $PATH to be able to access it from anywhere
+
+Use:
+
+1. separate/order the banknotes and coins according to denomination
+
+2. run program
+
+3. as you count each denomination(e.g there are 10 $20 bills), enter the amount after the matching prompt and press enter
+
+4. after seeing the sum, enter expected sum (according to your register/software/etc.)
+
+5. the difference will be displayed.

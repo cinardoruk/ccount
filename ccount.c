@@ -1,11 +1,25 @@
 /*
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/*
   help count cash
 
-  *prompt user to enter the number of each kind of banknote and coin(each type)
-  *add up the values and display type breakdown
-  *ask for the elektra reg value to display the difference between the real and expected values
+  *prompt user to enter the number of each kind of banknote or coin
+  *add up the values and display sum
 
-  *types(try):
+  *denominations(try):
 
   200
   100
@@ -18,7 +32,7 @@
   0.25
   0.1
   0.05
-
+  0.01
  */
 
 #include <stdio.h>
